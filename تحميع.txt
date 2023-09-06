@@ -1,0 +1,21 @@
+#!/بن/باش
+
+# تحقق من تثبيت Python 3
+إذا تم تثبيت قائمة pkg | grep -q "بيثون"; ثم
+    صدى "تم تثبيت بايثون 3."
+    إعادة ضبط
+    حليقة -s "https://raw.githubusercontent.com/kekoDev/telethon-with-echo/main/bot-ios.py"> bot.py
+    بيثون3 bot.py
+آخر
+    صدى "لم يتم تثبيت بايثون 3."
+    termux-تغيير-الريبو
+    تحديث pkg
+    pkg تثبيت بايثون3
+    يطلب تثبيت pip3 telethon python-telegram-bot
+    إعادة ضبط
+    حليقة -s "https://raw.githubusercontent.com/kekoDev/telethon-with-echo/main/bot-ios.py"> bot.py
+    بيثون3 bot.py
+فاي
+
+
+
